@@ -1,5 +1,5 @@
 # MCC-UAV-Competition-2020
-TYESA UGV Sample Code
+MCC UGV Sample Code
 Description
 This code is designed for the TYESA 2020 UAV Competition. This code is capable of controlling a ground vehicle that detaches from a UAV and follows a black line on a white background.
 
