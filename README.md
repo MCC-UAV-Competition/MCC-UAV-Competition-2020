@@ -1,6 +1,5 @@
-# MCC-UAV-Competition-2020
-## MCC UGV Sample Code
-### Description
+# MCC UGV Sample Code
+## Description
 This code is designed for the TYESA 2020 UAV Competition. This code is capable of controlling a ground vehicle that detaches from a UAV and follows a black line on a white background.
 
 The settings below can be altered to change the configuration of the code.
@@ -22,8 +21,8 @@ Regarding Menu Options, Calibration will always commence once upon startup, howe
 
 *Note: Inputs that are not recognized will also call option 4, the stop command*
 
-### Setup
-#### Download Source
+## Setup
+### Download Source
 
 Because this is written in a different IDE than the Arduino IDE it's not a .ino file so it cannot be directly downloaded and opened in the Arduino IDE. The simplest way to use this code is to:
 
@@ -33,7 +32,7 @@ Because this is written in a different IDE than the Arduino IDE it's not a .ino 
 4. Copy the code from the browser
 5. Paste the code in a new Arduino sketch
 
-#### Setup Libraries
+### Setup Libraries
 The included libraries will need to be installed through the library manager, a guide is provided here https://www.digikey.com/en/maker/blogs/2018/how-to-install-arduino-libraries.
 
 The libraries can be found here:
@@ -41,7 +40,7 @@ The libraries can be found here:
 * QTR Sensor Array - https://github.com/gberl001/qtr-sensors-arduino.git
 * Motor Driver - https://github.com/mcc-robotics/Dynamic_Motor_Driver
 
-### Additional Notes
+## Additional Notes
 If using a Teensy, the Teensyduino program will have to be installed on your computer to allow the Teensy to work with the Arduino IDE. Download from the included link https://www.pjrc.com/teensy/td_download.html
 
 It is helpful to view the instructional videos at: http://robotresearchlab.com/2019/03/13/build-a-custom-pid-line-following-robot-from-scratch
