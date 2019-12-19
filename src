@@ -3,7 +3,7 @@
 #include "TB67H420FTG.h"
 
 /* Edit these values as needed */
-.text-red on white #define RED_THRESHOLD 8             // Lower this value to increase red detection sensitivity (default 8)
+#define RED_THRESHOLD 8             // Lower this value to increase red detection sensitivity (default 8)
 #define RED_COUNT_TRIGGER 20        // The number of red counts to see before releasing the UGV
 #define MS_DELAY_BETWEEN_SENSOR_READINGS 200  // The ms delay time between color sensor readings
 #define SERVO_ENGAGE_POSITION 180   // This is the position when mounted to the UAV
